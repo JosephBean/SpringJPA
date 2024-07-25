@@ -39,5 +39,5 @@ public class BoardController {
 	public ResultDTO save(@ModelAttribute Board board) {
 		return boardService.save(board);
 	}
-	
+
 }
